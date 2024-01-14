@@ -137,12 +137,14 @@ body {
   color: #0c85e9;
 }
 
-.about {
-  margin: 100px;
-  height: 100px;
-  width: 100%;
+.frame {
+  margin: 1rem;
+  align-content: center;
+  width: 80%;
   background-color: #022038;
   color: White;
+  border: 3px solid cyan;
+  border-style: double;
 }
 
 header {
@@ -152,19 +154,5 @@ header {
 
 h1 {
   font-size: large;
-  color: White;
-}
-
-.education {
-  height: 100px;
-  width: 100%;
-  background-color: #022038;
-  color: White;
-}
-
-.projects {
-  height: 100px;
-  width: 100%;
-  background-color: #022038;
   color: White;
 }

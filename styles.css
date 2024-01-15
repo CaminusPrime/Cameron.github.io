@@ -143,16 +143,42 @@ body {
   width: 80%;
   background-color: #022038;
   color: White;
-  border: 3px solid cyan;
-  border-style: double;
+  border: 3px solid #0c85e9;
+}
+
+.frameEdu {
+  margin: 1rem;
+  display: inline-block;
+  flex-direction: row;
+  align-content: center;
+  width: 20%;
+  background-color: #022038;
+  color: White;
+  border: 3px solid #0c85e9;
 }
 
 header {
   font-size: x-large;
   font-style: bold;
+  color: White;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #0c85e9,
+    transparent
+  );
 }
 
 h1 {
   font-size: large;
   color: White;
+  background-image: linear-gradient(to right, #0c85e9, transparent);
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: #0c85e9;
+  background-color: #0c85e9;
 }

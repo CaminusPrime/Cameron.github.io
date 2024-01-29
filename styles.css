@@ -130,7 +130,6 @@ table {
   border-spacing: 0;
 }
 
-
 section {
   display: flex;
   justify-content: center;
@@ -139,6 +138,7 @@ section {
 
 .frame {
   margin: 1rem;
+  padding: 1rem;
   width: 80%;
   display: inline-block;
   flex-direction: column;
@@ -150,6 +150,7 @@ section {
 
 .frameEdu {
   margin: 1rem;
+  padding: 1rem;
   display: inline-block;
   flex-direction: row;
   width: 25%;

@@ -142,6 +142,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
+  overflow-y: auto;
   background-color: #011627;
   z-index: -0;
 }
@@ -156,7 +157,7 @@ section {
   opacity: 15%;
   z-index: -2;
 }
-.backdropC { 
+.backdropC {
   position: fixed;
   top: 0;
   left: 0;
@@ -183,14 +184,45 @@ section {
 .frameEdu {
   margin: 1rem;
   padding: 0.5rem;
-  display: inline-block;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 20% 70%;
+  grid-gap: 10px;
+  grid-column: 1/4;
   width: 25%;
   font-family: Ubuntu;
   background-color: #022038;
   color: White;
   font-size: x-small;
   border: 3px solid #0c85e9;
+}
+
+.frameEdu img {
+  width: 100%;
+  border-radius: 15%;
+}
+
+.gridFrame {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 70% 25%;
+  grid-gap: 10px;
+  grid-column: 1/4;
+}
+
+.gridFrame img {
+  border: 3px solid #0c85e9;
+  width: 100%;
+}
+
+.gridColumns {
+  border: 3px solid #0c85e9;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-gap: 5px;
+}
+.gridColumns img {
+  width: 5rem;
 }
 
 header {
